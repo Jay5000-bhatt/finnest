@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="video.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <title>Finnest</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR51Sm1I2NNnMXHvnI77gV0ccfpG0_P5BSBfA&usqp=CAU">
+
+</head>
+
+<body style="background-color:white;">
+    <header>
+
+        <nav class="navbar">
+
+
+            <ul>
+                <li><a href="#"> Order Card </a></li>
+                <li><a href="#"> FAQ </a></li>
+                <li><a href="#"> Solutions </a></li>
+                <li><a href="#"> Features </a></li>
+                <li><a href="#"> How It Works </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 style="text-align:500px;">Modern tools for<br>Earn and save your<br>money with clarity</h1>
+
+    <p style="text-align:500px;">Finnest inspired and allows to make your daily routine<br>easier by managing your money
+    </p>
+    <div class="container">
+        <section class="customer-logos slider">
+            <div class="slide"><img src="./photo/adidas.png" alt="adidas"></div>
+            <div class="slide"><img src="./photo/facebook.png" alt="facebook"></div>
+            <div class="slide"><img src="./photo/google.png" alt="google"></div>
+            <div class="slide"><img src="./photo/instagram.png" alt="instragram"></div>
+            <div class="slide"><img src="./photo/nike.png" alt="nike"></div>
+            <div class="slide"><img src="./photo/twitter.png" alt="twitter"></div>
+            <div class="slide"><img src="./photo/uber.png" alt="uber"></div>
+            <div class="slide"><img src="./photo/youtube.png" alt="youtube"></div>
+        </section>
+        <script>
+
+            $(document).ready(function () {
+                $('.customer-logos').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1500,
+                    arrows: false,
+                    dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                        breakpoint: 768,
+                        setting: {
+                            slidesToShow: 4
+                        }
+                    }, {
+                        breakpoint: 520,
+                        setting: {
+                            slidesToShow: 3
+                        }
+                    }]
+                });
+            });
+
+        </script>
+    </div>
+    <h1 style="text-align:center;">Simple Way to help control your savings </h1>
+    <h6 style="text-align: center;">Flow seamlessly while turning messi into memorable</h6>
+</body>
+
+</html>
